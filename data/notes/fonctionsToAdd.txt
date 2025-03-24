@@ -1,0 +1,52 @@
+# 🧠 Fonctions principales à intégrer dans Omnion pour qu'il puisse gérer un jeu et d'autres bots
+
+## 1. register_bot(bot_instance)
+- Permet à Omnion d'enregistrer un nouveau bot ou PNJ.
+- Stocke son nom, rôle, état, historique.
+- Sert à gérer plusieurs entités avec une interface centrale.
+
+## 2. send_message_to(bot_name, message)
+- Envoie un message à un autre bot enregistré.
+- Omnion agit comme un routeur de messages.
+- Peut servir à faire dialoguer des PNJ entre eux ou à répondre au joueur à la place de quelqu’un.
+
+## 3. broadcast(message)
+- Envoie un message à tous les bots connectés.
+- Utile pour des événements globaux du jeu (ex : "la nuit tombe", "une explosion retentit").
+
+## 4. get_bot_status(bot_name)
+- Donne l’état d’un bot : actif, silencieux, bloqué, etc.
+- Peut afficher ses tokens, son humeur simulée, ou son dernier message.
+
+## 5. trigger_event(event_name)
+- Omnion déclenche un événement défini (combat, dialogue spécial, cinématique, etc.).
+- Peut être lié à des scripts prédéfinis ou des fonctions Python externes.
+
+## 6. set_context(bot_name, context_data)
+- Définit un contexte temporaire pour un bot.
+- Ex : "tu es en colère", "tu viens de perdre un duel", "le joueur t’insulte".
+
+## 7. reset_bot(bot_name)
+- Réinitialise l’historique et l’état d’un bot.
+- Utile pour repartir d’un état initial ou corriger un bug narratif.
+
+## 8. save_all_states() / load_all_states()
+- Sauvegarde ou recharge l’état de tous les bots : historique, rôles, contexte.
+- À appeler lors d’un changement de scène ou d’un chargement.
+
+## 9. get_active_bots()
+- Retourne la liste des bots actifs en ce moment.
+- Peut être utilisé pour afficher les présences dans une scène.
+
+## 10. monitor_conversation(bot_name)
+- Affiche en live ce qu’un bot dit (utile si plusieurs PNJ parlent en tâche de fond).
+- Peut aussi logger la conversation pour debug ou lore.
+
+## 11. inject_system_prompt(bot_name, new_prompt)
+- Permet de modifier dynamiquement le rôle d’un bot sans redémarrer.
+- Très utile pour faire évoluer leur personnalité ou leur mission dans le jeu.
+
+## 12. shutdown_bot(bot_name)
+- Supprime le bot de la mémoire.
+- Nettoyage complet ou mort narrative.
+
