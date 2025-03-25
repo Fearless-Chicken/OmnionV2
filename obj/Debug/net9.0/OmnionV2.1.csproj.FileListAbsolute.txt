@@ -19,3 +19,24 @@ C:\Users\admintebe\OneDrive - KOESIO GROUPE\OmnionV2.1\bin\Debug\net9.0\System.M
 C:\Users\admintebe\OneDrive - KOESIO GROUPE\OmnionV2.1\obj\Debug\net9.0\OmnionV2.1.csproj.Up2Date
 C:\Users\admintebe\OneDrive - KOESIO GROUPE\OmnionV2.1\bin\Debug\net9.0\Newtonsoft.Json.dll
 C:\Users\admintebe\OneDrive - KOESIO GROUPE\OmnionV2.1\obj\Debug\net9.0\OmnionV2.1.sourcelink.json
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.csproj.AssemblyReference.cache
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.AssemblyInfoInputs.cache
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.AssemblyInfo.cs
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.csproj.CoreCompileInputs.cache
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.sourcelink.json
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.dll
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\refint\OmnionV2.1.dll
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.pdb
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\OmnionV2.1.exe
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\OmnionV2.1.deps.json
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\OmnionV2.1.runtimeconfig.json
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\OmnionV2.1.dll
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\OmnionV2.1.pdb
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\Newtonsoft.Json.dll
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\OpenAI.dll
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\System.ClientModel.dll
+D:\Things\pythonykyk\withMeaning\OmnionV2\bin\Debug\net9.0\System.Memory.Data.dll
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.csproj.Up2Date
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\OmnionV2.1.genruntimeconfig.cache
+D:\Things\pythonykyk\withMeaning\OmnionV2\obj\Debug\net9.0\ref\OmnionV2.1.dll

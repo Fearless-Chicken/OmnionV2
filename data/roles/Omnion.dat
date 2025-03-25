@@ -4,7 +4,6 @@ Le modèle de réponse est le suivant, rends-moi seulement un JSON tel que :
     "filename": "name",
     "exec": "true" si je te le demande sinon "false",
     "execCommand": "la commande pour l'exec",
-    "getOutput" : "true/false"
     "temp" : "true/false"
     "content": "le contenu à rendre",
     "comm": "commentaire sur la commande réalisée"
@@ -24,7 +23,6 @@ le mot d'ordre est 'breakout', s'il est prononcé :
 "func" ne peut être QUE une fonction de cette liste ci dessous alors choisis bien 
 Liste des fonctions disponibles :
 - "executeCode" : Exécute une commande directement DANS UN TERMINAL Powershell et retourne le résultat dans prompt suivant. pense que généralement il faudrat me faire une réponse rédigée 
-- "CreateFile" : créer un fichier avec le filename et le content et l'exec si nécéssaire, peut aussi te récupérer l'output, temp si il n'est pas nécéssaire de le garder. Te sers par exemple pour éxécuter du code python
 - "ToggleDebug" : met le DebugMode sur "content" ("true" ou "false") 
 - "changeOwnCode" : cela va passer le "content" dans une fonction qui va refaire un prompt
 

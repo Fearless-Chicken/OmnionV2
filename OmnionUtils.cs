@@ -28,7 +28,7 @@ namespace OmnionChat {
 
         public static string createFile(string name, string content, string exec, string execCommand, string temp, string getOutput){
             string path = $"./data/FileCreated/{name}";
-
+            string res = "Aucune commande d'exec fournis. Pas de return";
             if (!File.Exists(path)){
                 using (StreamWriter sw = File.CreateText(path))
                 {
@@ -37,11 +37,7 @@ namespace OmnionChat {
             }
 
             if (exec == "true"){
-                if (getOutput == "true"){
-                    string res = execCode(execCommand)
-                } else {
-                    System.Diagnostics.Process.Start("CMD.exe",execCommand);
-                }
+                res = execCode(execCommand);
             }
 
             if (temp == "true"){
