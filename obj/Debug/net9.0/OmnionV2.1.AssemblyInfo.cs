@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("OmnionV2.1")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d4ee7b031f03705f0decc600d4566e88937f5365")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c7d003e4709194ec04d716d2b7c24ba916262f9f")]
 [assembly: System.Reflection.AssemblyProductAttribute("OmnionV2.1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("OmnionV2.1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

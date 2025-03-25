@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\admintebe\\OneDrive - KOESIO GROUPE\\OmnionV2.1\\OmnionV2.1.csproj": {}
+    "D:\\Things\\pythonykyk\\withMeaning\\OmnionV2\\OmnionV2.1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\admintebe\\OneDrive - KOESIO GROUPE\\OmnionV2.1\\OmnionV2.1.csproj": {
+    "D:\\Things\\pythonykyk\\withMeaning\\OmnionV2\\OmnionV2.1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\admintebe\\OneDrive - KOESIO GROUPE\\OmnionV2.1\\OmnionV2.1.csproj",
+        "projectUniqueName": "D:\\Things\\pythonykyk\\withMeaning\\OmnionV2\\OmnionV2.1.csproj",
         "projectName": "OmnionV2.1",
-        "projectPath": "C:\\Users\\admintebe\\OneDrive - KOESIO GROUPE\\OmnionV2.1\\OmnionV2.1.csproj",
-        "packagesPath": "C:\\Users\\admintebe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\admintebe\\OneDrive - KOESIO GROUPE\\OmnionV2.1\\obj\\",
+        "projectPath": "D:\\Things\\pythonykyk\\withMeaning\\OmnionV2\\OmnionV2.1.csproj",
+        "packagesPath": "C:\\Users\\Octo4\\.nuget\\packages\\",
+        "outputPath": "D:\\Things\\pythonykyk\\withMeaning\\OmnionV2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\admintebe\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\Octo4\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net9.0"
@@ -69,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Users\\admintebe\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.202/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

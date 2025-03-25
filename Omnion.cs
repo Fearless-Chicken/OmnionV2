@@ -120,8 +120,8 @@ class Omnion{
             string getOutput = dict["getOutput"];
             string res = OmnionUtils.createFile(name, content, exec, execCommand, temp, getOutput);
             if (exec == "true"){
-                string res = OmnionUtils.execCode(dict["content"]);
-                string prompt = "la réponse est : "+res+"\nrédige moi une réponse pertinente";
+                string ExecReturn = OmnionUtils.execCode(dict["content"]);
+                string prompt = "la réponse est : "+ExecReturn+"\nrédige moi une réponse pertinente";
                 string response = await this.getResp(prompt);
                 this.InterpretationReponse(response);
             }
