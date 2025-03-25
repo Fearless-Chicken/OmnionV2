@@ -17,9 +17,9 @@ namespace OmnionChat
             marchand npc1 = new marchand("Bili","friendly","marchand");
             Console.WriteLine("debut");
             npc1.StartLife();
-            npc1.test();
-            Thread.Sleep(1500);
-            npc1.printLife();
+            npc1.TalkWith();
+            // Thread.Sleep(1500);
+            // npc1.printLife();
         }
     }
 }

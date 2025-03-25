@@ -37,7 +37,7 @@ class Omnion{
 
         }
         this.messages.Add(new SystemChatMessage(this.roleDesc));
-        
+    
     }
 
     // Méthode privée pour get la réponse d'Omnion

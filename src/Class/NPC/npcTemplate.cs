@@ -3,14 +3,14 @@ using System;
 using System.Threading;
 using OpenAI;
 using OpenAI.Chat;
-class npcTemplate{
+class npcTemplate{      
     string nom;
     int age;
     int lifeSpeed;
     private string roleDesc;
     private string ModelName;
     private ChatClient OmnionClient;
-    private List<ChatMessage> messages;
+    public List<ChatMessage> messages;
     public npcTemplate(string name, string classe, string role){
         ///////////////////////////
         // Définitions générales //
@@ -52,4 +52,30 @@ class npcTemplate{
     }
 
     public void printLife(){Console.WriteLine(this.age);}
+    private async Task<string> getResp(string Prompt){
+        this.messages.Add(new UserChatMessage(Prompt));
+
+        var response = await OmnionClient.CompleteChatAsync(messages);
+        var aiResponse = response.Value.Content[0].Text;
+
+        this.messages.Add(new AssistantChatMessage(aiResponse));
+
+        return aiResponse;
+    }
+    public async Task TalkWith(){
+        while (true){
+            // input = ("GM : ")
+            Console.Write("GM > ");string input = Console.ReadLine();
+            // Test non nul
+            if (string.IsNullOrWhiteSpace(input)){break;}
+            // Test d'une commande systeme
+            // string in = input.ToLower();
+            // else if ((in.StartsWith("commande systeme")) or (in.StartsWith("commande système"))){SystemCommands.Interprete(in)}
+            else {
+                string response = await this.getResp(input);
+                // this.InterpretationReponse(response);
+                Console.WriteLine($"{this.nom} : {response}");
+            }
+        }
+    }
 }
