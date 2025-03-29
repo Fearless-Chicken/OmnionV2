@@ -24,7 +24,7 @@ class Omnion{
         ///////////////////////////
         // Définition du context //
         ///////////////////////////
-        string filePath = "./data/roles/omnion.dat";
+        string filePath = "../data/roles/omnion.dat";
 
         try{
             // Lire tout le contenu du fichier
@@ -37,7 +37,7 @@ class Omnion{
 
         }
         this.messages.Add(new SystemChatMessage(this.roleDesc));
-        
+    
     }
 
     // Méthode privée pour get la réponse d'Omnion

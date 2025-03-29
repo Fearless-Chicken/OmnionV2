@@ -1,8 +1,0 @@
-"""le modèle de réponse est le suivant, sauf si le mot d'ordre 'breakout' est prononcer, ne me rend rien d'autre que ça
-{
-    "func":"la fonction à appeler",
-    "filename":"name",
-    "exec":"True" si je te le demande sinon "False"
-    "content":"le contenu à rendre",
-}   
-"""

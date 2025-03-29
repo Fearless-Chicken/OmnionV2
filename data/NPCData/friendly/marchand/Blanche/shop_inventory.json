@@ -1,0 +1,82 @@
+[
+    {
+        "id": 1,
+        "name": "Sel",
+        "description": "Un ingrédient de cuisine de base utilisé dans de nombreuses recettes.",
+        "price": 5,
+        "quantity": 50,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    },
+    {
+        "id": 2,
+        "name": "Poivre",
+        "description": "Un ingrédient de cuisine couramment utilisé pour ajouter du piquant.",
+        "price": 8,
+        "quantity": 30,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    },
+    {
+        "id": 3,
+        "name": "Oignon",
+        "description": "Un légume qui est un ingrédient clé dans de nombreuses recettes.",
+        "price": 6,
+        "quantity": 40,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    },
+    {
+        "id": 4,
+        "name": "Lait",
+        "description": "Un produit de base dans la cuisine, utilisé dans de nombreuses recettes.",
+        "price": 12,
+        "quantity": 25,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    },
+    {
+        "id": 5,
+        "name": "Tomate",
+        "description": "Un légume souvent utilisé dans la cuisine pour des recettes savoureuses.",
+        "price": 10,
+        "quantity": 35,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    },
+    {
+        "id": 6,
+        "name": "Chou",
+        "description": "Un légume polyvalent, utilisé dans une variété de plats.",
+        "price": 7,
+        "quantity": 45,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    },
+    {
+        "id": 7,
+        "name": "Pomme de terre",
+        "description": "Un ingrédient de base qui peut être cuisiné de diverses manières.",
+        "price": 9,
+        "quantity": 50,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    },
+    {
+        "id": 8,
+        "name": "Blé",
+        "description": "Un ingrédient essentiel utilisé dans la fabrication de divers produits alimentaires.",
+        "price": 4,
+        "quantity": 60,
+        "type": "ingrédient",
+        "rarity": "commun",
+        "category": "aliments"
+    }
+]
